@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# Profile Card App 👤
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a mobile "Profile Card" app built with [React Native](https://reactnative.dev) and [Expo](https://expo.dev). The app introduces React Native's core components and styling system by displaying a profile card with your name, an image, and some fun facts in a clean layout using Flexbox.
 
-## Get started
+## Purpose
 
-1. Install dependencies
+This project demonstrates the use of React Native's `View`, `Text`, and `Image` components, as well as the `StyleSheet` API for consistent styling. It also showcases how to use Flexbox for aligning and positioning items.
 
+## Features
+
+- Displays a profile picture.
+- Shows your full name.
+- Includes a short bio or tagline.
+- Lists 2–3 fun facts about yourself.
+- Styled with a background color, padding, margin, and rounded corners.
+- Uses Flexbox to center the card vertically and horizontally.
+
+## Learning Outcomes
+
+- Use `View`, `Text`, and `Image` components.
+- Apply `StyleSheet` for consistent styling.
+- Use Flexbox to align and position items.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/ProfileCard.git
+   cd ProfileCard
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+## Running the App
+
+1. Start the Expo development server:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+2. Open the app on your phone:
+   - Install the [Expo Go](https://expo.dev/client) app on your phone.
+   - Scan the QR code displayed in the terminal or browser to open the app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How to Use
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- The app displays a profile card with your name, profile picture, a short bio, and fun facts.
+- The layout is centered vertically and horizontally using Flexbox.
+- The card is styled with padding, margin, and rounded corners for a clean look.
 
-## Get a fresh project
+## Screenshot
 
-When you're ready, run:
+![Profile Card Screenshot](./assets/images/screenshot.png)
 
-```bash
-npm run reset-project
-```
+## Upload to GitHub
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Push your code to a public GitHub repository:
 
-## Learn more
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
 
-To learn more about developing your project with Expo, look at the following resources:
+2. Submit the GitHub repo link.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Learn More
 
-## Join the community
+To learn more about developing with React Native and Expo, check out the following resources:
 
-Join our community of developers creating universal apps.
+- [React Native documentation](https://reactnative.dev/docs/getting-started)
+- [Expo documentation](https://docs.expo.dev/)
+- [Flexbox in React Native](https://reactnative.dev/docs/flexbox)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Assignment Submission
+
+- Ensure your GitHub repo link is public and includes all the code for the app.
+- Include at least one screenshot of the app running in Expo Go.
+- Submit the GitHub repo link and verify that it works.
+
+Happy coding! 🚀
